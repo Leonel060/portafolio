@@ -1,0 +1,42 @@
+body {
+    
+    background: #4b5cb9;
+background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
+}
+
+.ht {
+    max-width: 300px; 
+    margin: 50px auto; 
+    width: 100%; 
+
+    border-radius: 20px; 
+    border: 2px solid #b1b0b0;
+    background-color: #ffffff;
+   
+    text-align: center;
+}
+
+h1 {
+
+    color: #000000;
+    margin-top: 20px; 
+}
+
+.contenedor-imagenes {
+    max-width: 810px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.9);
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-imagenes img {
+    width: 100%; 
+    max-width: 800px; 
+    height: auto; 
+    margin: 5px;
+}
